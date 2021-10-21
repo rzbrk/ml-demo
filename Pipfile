@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Keras-Applications = "==1.0.8"
+Keras-Preprocessing = "==1.1.0"
+pybind11 = "*"
+six = "*"
+wheel = "*"
+mock = "*"
+jupyter = "*"
+matplotlib = "*"
+scipy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
+
+[packages.0156c38]
+path = "./tensorflow-2.5.0-cp37-none-linux_armv7l.whl"
