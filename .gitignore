@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 *.odp#
-tensorflow-2.5.0-cp37-none-linux_armv7l.whl
+*.whl
+*.lock
