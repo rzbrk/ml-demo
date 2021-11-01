@@ -17,7 +17,7 @@ scipy = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
 
-[packages.0156c38]
-path = "./tensorflow-2.5.0-cp37-none-linux_armv7l.whl"
+[packages.f4ef91b]
+path = "./tensorflow-2.6.0-cp39-none-linux_aarch64.whl"
