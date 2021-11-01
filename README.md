@@ -1,7 +1,7 @@
 # Tensorflow Demo
 This repository contains an introduction in machine learning using Tensorflow.
 Sample programs are provided as Jupyter Notebooks. Presentation slides can be
-found [here](https://github.com/rzbrk/ml-demo/raw/dietpi/ml-demo.pdf)
+found [here](https://github.com/rzbrk/ml-demo/raw/rpios/ml-demo.pdf)
 
 ## Launch Jupyter Notebooks
 This requires that the Python virtual environment is already set up. If not,
@@ -26,7 +26,7 @@ The above Raspberry Pi OS version features Python 3.7.
 ```
 git clone https://github.com/rzbrk/ml-demo.git
 cd ml-demo/
-git checkout raspios
+git checkout rpios
 ```
 
 ### Install dependencies
