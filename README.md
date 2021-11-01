@@ -8,9 +8,9 @@ This requires that the Python virtual environment is already set up. If not,
 follow the installation instructions below.
 
 From within the repository directory execute:
-'''
+```
 pipenv run jupyter notebook
-'''
+```
 
 ## Installation
 This manual describes the installation of Tensorflow on a Raspberry Pi
@@ -23,29 +23,29 @@ Tested with:
 DietPi 7.7 features Python 3.9.
 
 ### Clone repository and select correct branch
-'''
+```
 git clone https://github.com/rzbrk/ml-demo.git
 cd ml-demo/
 git checkout dietpi
-'''
+```
 
 ### Install dependencies
-'''
+```
 sudo ./dependencies.sh
-'''
+```
 
 ### Download tensorflow wheel for Raspberry Pi architecture (aarch64)
-'''
+```
 ./tensorflow-2.6.0-cp39-none-linux_aarch64_numpy1211_download.sh
-'''
+```
 This will download the wheel file in the current directory.
 
 ### Establish virtual Python environment using pipenv
 On the Raspberry Pi this step can take quite a while!
-'''
+```
 pipenv install # Install from Pipfile
 pipenv install tensorflow-2.6.0-cp39-none-linux_aarch64.whl
-'''
+```
 
 ### Aknowledgements
 The Jupyter Notebooks are based on https://github.com/lmoroney/mlday-tokyo and
